@@ -1,4 +1,3 @@
-package demo1;
 /******************************************************************************
  *  Compilation:  javac StdDraw.java
  *  Execution:    java StdDraw
