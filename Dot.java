@@ -1,4 +1,6 @@
-package demo1;
+package Project;
+
+import Project.StdDraw;
 
 import java.awt.*;
 
