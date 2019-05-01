@@ -295,11 +295,11 @@ public class kernal3X3_demo {
     public void SavedPlay() {
         //因为莫名的会出现读档之后player1与player2的反过来，所以暂且在这里加上一个修正，在读档开始时
         //就切换player一次
-        if(player == 1){
-            player++;
-        }else{
-            player--;
-        }
+//        if(player == 1){
+//            player++;
+//        }else{
+//            player--;
+//        }
         for (int i = 0; i < order.size(); i++) {
             updateArrays(order.get(i));
             if (testFour(currX, currY, player) == true) {
@@ -367,7 +367,9 @@ public class kernal3X3_demo {
                 break;
             }
         }
+        System.out.println("Score of PLayer1 is:");
         System.out.println(scoreOfPlayer1 + "\n");
+        System.out.println("Score of Player2 is:");
         System.out.println(scoreOfPlayer2 + "\n");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("Do you want to save this game?\n" +
